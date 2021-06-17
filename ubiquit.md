@@ -50,11 +50,15 @@ Library `CoreFile`. Loaded and used by default.
 
 ### `File`
 
+### Variables
+
+* `String name` - full name
+* `String directory` - where file is located
+* `Integer size = 0` - size in bytes
+
 ### Functions
 
 * `String read()` - returns string with contents of the file
-
-* `String get_size()` - returns size of file in bytes
 
 * `String get_extension()` - returns extension of the file with the dot or empty string if no extension
 
