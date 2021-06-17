@@ -287,7 +287,26 @@ foo_bar
 
 ````
 
-### `package.json` Structure Example
+### Package specification
+
+Contains useful information about the library.
+
+#### Required Properties:
+
+* `name` - this package's name
+* `author` or `authors` - a list of creators
+* `version` - current package version
+
+#### Recommended Properties:
+
+* `email`
+* `homepage`
+* `license`
+* `description`
+
+
+
+### `package.json` Structure Example	
 
 ````json
 {
@@ -302,6 +321,7 @@ foo_bar
         "email": "jeff@example.com",
         "homepage": "https://github.com/jeff/foo_bar",
         "ubiquit_version": "3.*",
+        "description": "Provides foo and bar"
         "runtime_dependencies": [
             {
                 "name": "some_library",
