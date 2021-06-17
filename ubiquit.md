@@ -17,8 +17,8 @@ Library `CoreObject`. loaded and used by default
 ### Functions
 
 * `static Array get_member_functions()` - returns an array containing strings named after member functions
-
 * `static Array get_static_functions()` - returns an array containing strings named after static functions
+* `String to_string()` - returns strings of class alongside with it's values of variables
 
 
 
@@ -29,6 +29,7 @@ Library `CoreObject`. loaded and used by default
 * `static Integer max_value()` - returns maximum possible value
 * `static Integer min_value()` - returns minimum possible value
 * `Float to_float()` - returns integer converted to float
+* `String to_string()` - converts to string
 
 
 
@@ -39,8 +40,29 @@ Library `CoreObject`. loaded and used by default
 * `static Float max_value()` - returns maximum possible value
 * `static Float min_value()` - returns minimum possible value
 * `Integer to_int()` - returns float converted to integer
+* `String to_string()` - converts to string
+
+
+
+# File
+
+Library `CoreFile`. Loaded and used by default.
+
+### `File`
+
+### Variables
+
+* `Integer size = 0` - stores file size in bytes
+
+### Functions
+
+* `String read()` - returns string with contents of the file
+* `void append(String text)` - writes text to the end of the file
+* `void delete_contents()` - empties the file
+* `void delete()` - deletes the file and it's contents
 
 # Input Output
+
 Library `CoreIO`. loaded and used by default
 
 ### Variables
