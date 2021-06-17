@@ -85,6 +85,7 @@ Library `CoreObject`. loaded and used by default
 * `static Array get_member_functions()` - returns an array containing strings named after member functions
 * `static Array get_static_functions()` - returns an array containing strings named after static functions
 * `String to_string()` - returns strings of class alongside with it's values of variables
+* `String class` - returns class name
 
 
 
@@ -202,20 +203,20 @@ Library `CoreFile`. Loaded and used by default.
 ### Functions
 
 * `String read()` - returns string with contents of the file
-
 * `String get_extension()` - returns extension of the file with the dot or empty string if no extension
-
 * `void append(String text)` - writes text to the end of the file
-
 * `void delete_contents()` - empties the file
-
 * `void delete()` - deletes the file and it's contents
-
 * `void rename(String new_name)` - gives file a new name, raises if string is not a valid name
-
 * `void move(String path)` - moves file to a new path relative to the current directory
 
-  
+
+
+# Dir
+
+Library `CoreDir`. Loaded and used by default.
+
+
 
 # Input Output
 
