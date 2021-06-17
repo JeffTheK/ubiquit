@@ -257,3 +257,79 @@ func test_one_plus_one {
 
 
 
+# Library Structure
+
+### File Structure
+
+Here is shown a `foo_bar` package example
+
+````
+foo_bar
+|	readme.md
+|	code_of_conduct.md
+| 	license.txt
+|	package.json
+|	taskfile
+|	.gitignore
+|
+|___src
+|		foo.ub
+|		bar.ub
+|
+|___test
+|		test_foo.ub
+|		test_bar.ub
+|
+|___doc
+|		doc1.md
+|		doc2.md
+
+
+````
+
+### `package.json` Structure Example
+
+````json
+{
+    "package": {
+        "name": "foo_bar",
+        "version": "1.0.0",
+        "license": "MIT",
+        "authors": [
+            "JeffTheK",
+            "Shwaika"
+        ],
+        "email": "jeff@example.com",
+        "homepage": "https://github.com/jeff/foo_bar",
+        "ubiquit_version": "3.*",
+        "runtime_dependencies": [
+            {
+                "name": "some_library",
+                "version": "1.6.*"
+            },
+            {
+                "name": "other_tool",
+                "version": "*"
+            }
+        ],
+        "development_dependencies": [
+            {
+               	"name": "fast_test",
+                "version": "2.0.1"
+            }
+        ],
+        "executables": [ "foo" ],       
+        "post_install_message": "Thanks for installing!",
+        "requirements": [
+            "A good graphics card"
+        ]
+    }
+}
+````
+
+
+
+
+
+
+
