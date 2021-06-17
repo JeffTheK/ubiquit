@@ -10,6 +10,72 @@ This book covers my own scripting language, or more specifically, it’s design 
 
 
 
+# Keywords
+
+Here's a list of reserved words.
+
+* `class`
+* `func`
+* `return`
+* `if`
+* `else`
+* `for`
+* `static`
+* `do`
+* `while`
+* `true`
+* `false`
+* `try`
+* `null`
+* `super`
+
+# Functions
+
+Functions with no return statement return `null`.
+
+### Syntax
+
+````
+func *name_here* {
+	// code
+}
+````
+
+
+
+
+
+# Class
+
+### Syntax
+
+````
+class *NameHere* {
+	static some_var = 0
+	other_var = "foo"
+	
+	func say_hello() {
+		// ...
+	}
+}
+````
+
+
+
+# Static Class
+
+Can't be instantiated. Can only have static functions and variables.
+
+### Syntax
+
+````
+static class *NameHere* {
+	// code
+}
+````
+
+
+
 # Object class
 
 Library `CoreObject`. loaded and used by default
