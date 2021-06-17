@@ -24,10 +24,13 @@ Library `CoreObject`. loaded and used by default
 
 # Integer Class
 
+### Variables
+
+* `static Integer max_value`
+* `static Integer min_value`
+
 ### Functions
 
-* `static Integer max_value()` - returns maximum possible value
-* `static Integer min_value()` - returns minimum possible value
 * `Float to_float()` - returns integer converted to float
 * `String to_string()` - converts to string
 
@@ -35,14 +38,30 @@ Library `CoreObject`. loaded and used by default
 
 # Float Class
 
+### Variables
+
+* `static Float max_value`
+* `static Float min_value`
+
 ### Functions
 
-* `static Float max_value()` - returns maximum possible value
-* `static Float min_value()` - returns minimum possible value
 * `Integer to_int()` - returns float converted to integer
 * `String to_string()` - converts to string
 
 
+
+# String
+
+Library `CoreString`. Represents one or more characters. Loaded and used by default.
+
+### Variables
+
+* `Integer size = 0` - number of characters
+
+### Functions
+
+* `Array to_array(String split = '')` - returns array of strings by splitting the string
+* `String interpolate(Hash variables)` - interpolates between Hash where key => String, value => Object
 
 # File
 
@@ -52,6 +71,8 @@ Library `CoreFile`. Loaded and used by default.
 
 ### Variables
 
+* `Date birth_time` - date when file was created
+* `Date access_time = null` - last time file was accessed or null
 * `String name` - full name
 * `String directory` - where file is located
 * `Integer size = 0` - size in bytes
