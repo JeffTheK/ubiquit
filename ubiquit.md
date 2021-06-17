@@ -129,6 +129,42 @@ Library `CoreString`. Represents one or more characters. Loaded and used by defa
 * `Array to_array(String split = '')` - returns array of strings by splitting the string
 * `String interpolate(Hash variables)` - interpolates between Hash where key => String, value => Object
 
+
+
+# Array
+
+Library `CoreArray`. Loaded and used by default. Indexes start at 0.
+
+### Variables
+
+* `Integer size = 0`
+
+### Functions
+
+* `Bool ==(other)`
+* `Object [](Integer index)` - returns element at index or null if out of bounds, raises if index < 0
+* `Array select_if(Function fun)` - returns a new array of elements that passed the function check
+* `Null []=(Integer index, Object new_value)`
+* `Null delete_if(Function fun)` - deletes elements if passed function will return true
+* `Null clear()` - deletes all elements 
+
+# Hash
+
+Library `CoreHash`. Loaded and used by default.
+
+### Variables
+
+* `Integer size = 0`
+* `Array keys`
+* `Array values`
+
+### Functions
+
+* `Bool ==(other)`
+* `Object [](Object key)`
+* `null []=(Object key, Object new_value)`
+* `null clear()` - deletes all elements
+
 # File
 
 Library `CoreFile`. Loaded and used by default.
