@@ -177,7 +177,7 @@ Library `CoreException`. Base class for exception.
 
 ### Functions
 
-* `raise(Exception except = RuntimeException.new)`
+* `raise(Object except)` - raises an exception if passed, or you can pass string and it will raise `RuntimeException`
 
 ### Children
 
