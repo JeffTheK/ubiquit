@@ -11,31 +11,45 @@ This book covers my own scripting language, or more specifically, it’s design 
 
 
 # Object class
-Library CoreObject
 
-loaded and used by default
+Library `CoreObject`. loaded and used by default
 
-## Member Functions
+### Functions
 
-* Array get_member_functions() - returns an array containing strings named after member functions
+* `static Array get_member_functions()` - returns an array containing strings named after member functions
 
-## Static Functions
-
-* Array get_static_functions() - returns an array containing strings named after static functions
+* `static Array get_static_functions()` - returns an array containing strings named after static functions
 
 
+
+# Integer Class
+
+### Functions
+
+* `static Integer max_value()` - returns maximum possible value
+* `static Integer min_value()` - returns minimum possible value
+* `Float to_float()` - returns integer converted to float
+
+
+
+# Float Class
+
+### Functions
+
+* `static Float max_value()` - returns maximum possible value
+* `static Float min_value()` - returns minimum possible value
+* `Integer to_int()` - returns float converted to integer
 
 # Input Output
-Library `CoreIO`
+Library `CoreIO`. loaded and used by default
 
-loaded and used by default
-
-## Static Variables
-* Bool echo = true - controls whether the input should be written back
+### Variables
+* `static Bool echo = true` - controls whether the input should be written back
 
 
-## Functions
+### Functions
 
-* void print(Object) - prints passed in object/text
-* String get_line() - returns string line
-* String get_char() - returns pressed character
+* `static void print(Object)` - prints passed in object/text
+* `static String get_line()` - returns string line
+* `static String get_char()` - returns pressed character
+
