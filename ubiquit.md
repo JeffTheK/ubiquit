@@ -165,6 +165,26 @@ Library `CoreHash`. Loaded and used by default.
 * `null []=(Object key, Object new_value)`
 * `null clear()` - deletes all elements
 
+
+
+# Exception
+
+Library `CoreException`. Base class for exception.
+
+### Variables
+
+* `String message = ""`
+
+### Functions
+
+* `raise(Exception except = RuntimeException.new)`
+
+### Children
+
+* `RuntimeException` - gets raised by standard `raise`
+
+
+
 # File
 
 Library `CoreFile`. Loaded and used by default.
