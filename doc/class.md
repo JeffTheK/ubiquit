@@ -22,3 +22,14 @@ class *NameHere* {
 ### Default Functions
 
 * constructor() - regular constructor that has variables_ parameters. Initializes class variables with parameters.
+
+### Calling Static Functions
+
+example:
+
+````
+class Foo { static func baz(){ return 1 } }
+
+Foo.baz() // => 1
+````
+
