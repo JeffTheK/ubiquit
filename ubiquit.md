@@ -130,10 +130,6 @@ Library `CoreString`. Represents one or more characters. Loaded and used by defa
 * `Array to_array(String split = '')` - returns array of strings by splitting the string
 * `String interpolate(Hash variables)` - interpolates between Hash where key => String, value => Object
 
-
-
-* 
-
 # Hash
 
 Library `CoreHash`. Loaded and used by default.
