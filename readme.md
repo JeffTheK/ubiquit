@@ -24,6 +24,7 @@ This is my first project on designing my own programming language
 * [Keywords](/doc/keywords.md)
 * [Loading Files](/doc/load.md)
 * [Object](/doc/object.md)
+* [Operators](/doc/operators.md)
 * [Package](/doc/package.md)
 * [Random](/doc/random.md)
 * [Static Class](/doc/static_class.md)
