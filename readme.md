@@ -19,6 +19,7 @@ This is my first project on designing my own programming language
 * [Hash](/doc/hash.md)
 * [Integer](/doc/integer.md)
 * [Interpreter Errors](/doc/interpreter_errors.md)
+* [Interpreter Warnings](/doc/interpreter_warnings.md)
 * [Input Output](/doc/io.md)
 * [Keywords](/doc/keywords.md)
 * [Loading Files](/doc/load.md)
