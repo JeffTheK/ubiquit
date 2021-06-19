@@ -10,25 +10,6 @@ This book covers my own scripting language, or more specifically, it’s design 
 
 
 
-# Keywords
-
-Here's a list of reserved words.
-
-* `class`
-* `func`
-* `return`
-* `if`
-* `else`
-* `for`
-* `static`
-* `do`
-* `while`
-* `true`
-* `false`
-* `try`
-* `null`
-* `super`
-
 # Functions
 
 Functions with no return statement return `null`.
