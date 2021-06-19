@@ -48,3 +48,15 @@ class Counter {
 }
 ````
 
+
+
+### `Different types calculation`
+
+When different types are added or subtracted or else.
+
+example:
+
+````
+some_var = 10 + 2.5 // Error, 10 is an Integer and 2.5 is a Float
+````
+
