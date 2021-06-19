@@ -10,27 +10,6 @@ This book covers my own scripting language, or more specifically, it’s design 
 
 
 
-
-
-
-
-# Class
-
-### Syntax
-
-````
-class *NameHere* {
-	static some_var = 0
-	other_var = "foo"
-	
-	func say_hello() {
-		// ...
-	}
-}
-````
-
-
-
 # Static Class
 
 Can't be instantiated. Can only have static functions and variables.
