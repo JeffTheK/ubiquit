@@ -21,6 +21,7 @@ This is my first project on designing my own programming language
 * [Interpreter Errors](/doc/interpreter_errors.md)
 * [Input Output](/doc/io.md)
 * [Keywords](/doc/keywords.md)
+* [Loading Files](/doc/load.md)
 * [Object](/doc/object.md)
 * [Package](/doc/package.md)
 * [Random](/doc/random.md)

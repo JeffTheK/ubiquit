@@ -16,6 +16,7 @@ Here's a list of reserved words.
 * `try`
 * `null`
 * `super`
+* `load`
 
 
 
