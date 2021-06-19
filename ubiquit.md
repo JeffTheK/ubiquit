@@ -8,20 +8,6 @@ This book covers my own scripting language, or more specifically, it’s design 
 # File extensions
 `.ub`  is used for all files
 
-# Integer Class
-
-### Variables
-
-* `static Integer max_value`
-* `static Integer min_value`
-
-### Functions
-
-* `Float to_float()` - returns integer converted to float
-* `String to_string()` - converts to string
-
-
-
 
 
 # Dir
