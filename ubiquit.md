@@ -8,22 +8,6 @@ This book covers my own scripting language, or more specifically, it’s design 
 # File extensions
 `.ub`  is used for all files
 
-
-
-# Static Class
-
-Can't be instantiated. Can only have static functions and variables.
-
-### Syntax
-
-````
-static class *NameHere* {
-	// code
-}
-````
-
-
-
 # Object class
 
 Library `CoreObject`. loaded and used by default
