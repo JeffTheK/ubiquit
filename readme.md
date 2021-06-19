@@ -17,6 +17,7 @@ This is my first project on designing my own programming language
 * [Float](/doc/float.md)
 * [Function](/doc/function.md)
 * [Hash](/doc/hash.md)
+* [If Else](/doc/if_else.md)
 * [Integer](/doc/integer.md)
 * [Interpreter Errors](/doc/interpreter_errors.md)
 * [Interpreter Warnings](/doc/interpreter_warnings.md)
