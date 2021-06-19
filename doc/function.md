@@ -10,3 +10,6 @@ func *name_here* {
 }
 ````
 
+### Return Statement
+
+`return` is used to return values. Having a return that is impossibe to achieve will raise warning.
