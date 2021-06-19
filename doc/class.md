@@ -1,5 +1,7 @@
 # Class
 
+Default Constructor that requires parameters according to variables and initializes them is provided. Constructors can't be static. Gives error if `static func constructor()`  is found.
+
 ### Syntax
 
 ````
@@ -17,4 +19,6 @@ class *NameHere* {
 }
 ````
 
-### 
+### Default Functions
+
+* constructor() - regular constructor that has variables_ parameters. Initializes class variables with parameters.
