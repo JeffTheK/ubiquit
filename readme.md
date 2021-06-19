@@ -31,3 +31,4 @@ This is my first project on designing my own programming language
 * [Style Guide](/doc/style.md)
 * [Takser](/doc/tasker.md)
 * [Tests](/doc/tests.md)
+* [While](/doc/while.md)
