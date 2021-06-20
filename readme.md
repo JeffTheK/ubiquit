@@ -1,6 +1,5 @@
-![GitHub license](https://img.shields.io/github/license/JeffTheK/readme_template?style=for-the-badge)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/y/JeffTheK/readme_template?style=for-the-badge)
-![Github stars](https://img.shields.io/github/stars/JeffTheK/readme_template?style=social)
+![GitHub license](https://img.shields.io/github/license/JeffTheK/ubiquit?style=for-the-badge)
+![Github stars](https://img.shields.io/github/stars/JeffTheK/ubiquit?style=social)
 
 # Ubiquit
 
