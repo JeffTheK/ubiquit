@@ -1,3 +1,7 @@
+![GitHub license](https://img.shields.io/github/license/JeffTheK/readme_template?style=for-the-badge)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/y/JeffTheK/readme_template?style=for-the-badge)
+![Github stars](https://img.shields.io/github/stars/JeffTheK/readme_template?style=social)
+
 # Ubiquit
 
 This is my first project on designing my own programming language
