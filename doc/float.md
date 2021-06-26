@@ -1,5 +1,7 @@
 # Float Class
 
+Any number with dot  `.` is considered to be a `Float`. Division and multiplication produce floats.
+
 ### Variables
 
 * `static Float max_value`
