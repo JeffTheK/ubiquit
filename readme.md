@@ -28,6 +28,7 @@ This is my first project on designing my own programming language
 * [Input Output](/doc/io.md)
 * [Keywords](/doc/keywords.md)
 * [Loading Files](/doc/load.md)
+* [Math](/doc/math.md)
 * [Object](/doc/object.md)
 * [Operators](/doc/operators.md)
 * [Package](/doc/package.md)
