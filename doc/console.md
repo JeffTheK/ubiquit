@@ -99,4 +99,10 @@ These are the strings returned by `get_key()`.
 
 * `"numpad9"`
 
-  
+
+## Example
+
+````
+Console.get_key() // => "5"
+````
+
