@@ -10,6 +10,7 @@ Library `CoreString`. Represents one or more characters. Loaded and used by defa
 
 * `Array to_array(String split = '')` - returns array of strings by splitting the string
 * `String interpolate(Hash variables)` - interpolates between Hash where key => String, value => Object
+* `String [](Integer index)` - returns character at a given position. Raise if out of bounds
 
 ### Example
 
@@ -23,6 +24,8 @@ multi_string = """
 hello, world!
 I hope you like it!
 """
+
+"hello"[1] // => "e"
 ````
 
 
