@@ -12,6 +12,7 @@ This is my first project on designing my own programming language
 * [Array](/doc/array.md)
 * [Class](/doc/class.md)
 * [Comments](/doc/comments.md)
+* [Compiler](/doc/compiler.md)
 * [Console](/doc/console.md)
 * [Dir](/doc/dir.md)
 * [Exception](/doc/exception.md)
