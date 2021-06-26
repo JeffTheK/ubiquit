@@ -11,3 +11,13 @@ Any number with dot  `.` is considered to be a `Float`. Division and multiplicat
 
 * `Integer to_int()` - returns float converted to integer
 * `String to_string()` - converts to string
+
+### Example
+
+````
+1.0 // OK
+1. // Also OK
+
+1.55.to_string() // => '1.55'
+````
+
