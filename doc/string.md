@@ -2,7 +2,7 @@
 
 Library `CoreString`. Represents one or more characters. Loaded and used by default. Enclosed either in `''` or `""`. Special characters are escaped using `\`. Multiline strings are enclosed in `"""`.
 
-### V.ariables
+### Variables
 
 * `Integer size = 0` - number of characters
 
