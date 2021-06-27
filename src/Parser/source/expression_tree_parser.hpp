@@ -5,7 +5,7 @@
 
 #include "types.hpp"
 
-namespace stork {
+namespace ubiquit {
 	class node;
 	using node_ptr=std::unique_ptr<node>;
 
