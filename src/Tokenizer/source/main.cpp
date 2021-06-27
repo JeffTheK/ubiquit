@@ -7,7 +7,7 @@
 // #define XCODE_DEBUG_HACK
 
 int main() {
-	using namespace stork;
+	using namespace ubiquit;
 	std::cerr << "Enter the line to tokenize, or newline to exit." << std::endl;
 	std::string line;
 	
