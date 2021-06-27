@@ -7,7 +7,7 @@
 #include "types.hpp"
 #include "compiler_context.hpp"
 
-namespace stork {
+namespace ubiquit {
 	enum struct node_operation {
 		param,
 
