@@ -12,4 +12,4 @@ function *return_type* *name_here* {
 
 ### Return Statement
 
-`return` is used to return values. Having a return that is impossibe to achieve will raise warning.
+`return` is used to return values. Having a return that is impossible to achieve will raise warning.
