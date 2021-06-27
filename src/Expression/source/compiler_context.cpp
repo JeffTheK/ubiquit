@@ -1,6 +1,6 @@
 #include "compiler_context.hpp"
 
-namespace stork{
+namespace ubiquit {
 	identifier_info::identifier_info(type_handle type_id, size_t index, bool is_global, bool is_constant) :
 		_type_id(type_id),
 		_index(index),
