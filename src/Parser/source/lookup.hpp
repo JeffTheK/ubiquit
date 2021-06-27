@@ -5,7 +5,7 @@
 #include <utility>
 #include <algorithm>
 
-namespace stork {
+namespace ubiquit {
 	template <typename Key, typename Value>
 	class lookup {
 	public:
