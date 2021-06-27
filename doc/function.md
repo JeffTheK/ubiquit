@@ -5,7 +5,7 @@ Functions with no return statement return `null`.
 ### Syntax
 
 ````
-function *return_type* *name_here* {
+function *return_type* *name_here*(*arguments*) {
 	// code
 }
 ````
