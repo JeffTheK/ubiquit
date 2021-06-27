@@ -4,7 +4,7 @@
 #include "errors.hpp"
 #include <stack>
 
-namespace stork {
+namespace ubiquit {
 	namespace {
 		enum struct operator_precedence {
 			postfix,
