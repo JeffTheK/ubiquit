@@ -7,7 +7,7 @@
 
 #include "types.hpp"
 
-namespace stork {
+namespace ubiquit {
 	class identifier_info {
 	private:
 		type_handle _type_id;
