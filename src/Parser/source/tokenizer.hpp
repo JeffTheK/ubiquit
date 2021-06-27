@@ -9,7 +9,7 @@
 #include "tokens.hpp"
 #include "push_back_stream.hpp"
 
-namespace stork {
+namespace ubiquit {
 	class tokens_iterator {
 	private:
 		push_back_stream& _stream;
