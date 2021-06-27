@@ -6,7 +6,7 @@
 #include <string_view>
 #include <ostream>
 
-namespace stork {
+namespace ubiquit {
 	class error: public std::exception {
 	private:
 		std::string _message;
