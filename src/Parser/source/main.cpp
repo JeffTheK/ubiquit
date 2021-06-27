@@ -11,7 +11,7 @@
 // #define XCODE_DEBUG_HACK
 
 namespace {
-	using namespace stork;
+	using namespace ubiquit;
 
 	std::ostream& operator<<(std::ostream& stream, const node_ptr& node) {
 		std::visit(overloaded{
