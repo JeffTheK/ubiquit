@@ -3,7 +3,7 @@
 #include <stack>
 #include <functional>
 
-namespace stork {
+namespace ubiquit {
 	using get_character = std::function<int()>;
 
 	class push_back_stream {
