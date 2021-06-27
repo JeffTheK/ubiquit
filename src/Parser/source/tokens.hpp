@@ -8,7 +8,7 @@
 
 #include "push_back_stream.hpp"
 
-namespace stork {
+namespace ubiquit {
 	enum struct reserved_token {
 		inc,
 		dec,
