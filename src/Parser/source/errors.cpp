@@ -1,7 +1,7 @@
 #include "errors.hpp"
 #include <sstream>
 
-namespace stork {
+namespace ubiquit {
 	error::error(std::string message, size_t line_number, size_t char_index) noexcept :
 		_message(std::move(message)),
 		_line_number(line_number),
