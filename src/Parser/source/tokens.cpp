@@ -3,7 +3,7 @@
 #include <string_view>
 #include "helpers.hpp"
 
-namespace stork {
+namespace ubiquit {
 	namespace {
 		const lookup<std::string_view, reserved_token> operator_token_map {
 			{"++", reserved_token::inc},
