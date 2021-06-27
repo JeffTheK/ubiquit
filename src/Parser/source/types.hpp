@@ -5,7 +5,7 @@
 #include <set>
 #include <ostream>
 
-namespace stork {
+namespace ubiquit {
 	enum struct simple_type {
 		nothing,
 		number,
