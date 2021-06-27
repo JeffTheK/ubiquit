@@ -1,7 +1,7 @@
 #include "types.hpp"
 #include "helpers.hpp"
 
-namespace stork {
+namespace ubiquit {
 	bool type_registry::types_less::operator()(const type& t1, const type& t2) const {
 		const size_t idx1 = t1.index();
 		const size_t idx2 = t2.index();
