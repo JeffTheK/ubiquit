@@ -1,6 +1,6 @@
 #include "push_back_stream.hpp"
 
-namespace stork {
+namespace ubiquit {
 	push_back_stream::push_back_stream(const get_character& input) :
 		_input(input),
 		_line_number(0),
