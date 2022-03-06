@@ -1,6 +1,6 @@
 # Load
 
- The load keyword is used to load additional source code files using a `library/filles` way. Raises if file not found. Loading files without he `.ub` extension will raise error.
+ The load keyword is used to load additional source code files using a `library/filles` way. Raises if file not found. Loading files without the `.ub` extension will raise error.
 
 ### Syntax
 
