@@ -2,9 +2,9 @@
 
 ### Files
 
-All ubiquit source code files should be in lower case and use underscores for spaces and end with `.ub` extension.
+All ubiquit source code files should be in lower case and use underscores for spaces and end with `.ubi` extension.
 
-example: `foo.ub`, `person_utility.ub`
+example: `foo.ubi`, `person_utility.ubi`
 
 ### Variables
 
@@ -19,7 +19,7 @@ Functions should be in lowercase. Use `is_` for bool returning functions. Define
 example:
 
 ````
-static func say_hello() { print('Hello!') }
+public fun say_hello() { print('Hello!') }
 
 // returns one plus one
 static func do_thing() {
