@@ -1,16 +1,8 @@
 # File
 
-Library `CoreFile`. Loaded and used by default.
+Library `File`. Loaded and used by default.
 
 ### `File`
-
-### Variables
-
-* `Date birth_time` - date when file was created
-* `Date access_time = null` - last time file was accessed or null
-* `String name` - full name
-* `String directory` - where file is located
-* `Integer size = 0` - size in bytes
 
 ### Functions
 
