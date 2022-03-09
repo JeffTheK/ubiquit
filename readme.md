@@ -11,6 +11,7 @@ This is my first project on designing my own programming language
 
 * [Array](/doc/array.md)
 * [Comments](/doc/comments.md)
+* [Random](/doc/random.md)
 * [Compiler](/doc/compiler.md)
 * [File Extensions](/doc/file_extensions.md)
 * [Float](/doc/float.md)
