@@ -3,20 +3,18 @@
 ### Syntax
 
 ````
-if *expression* {
+if *expression* 
 	// code
-} else if *expression* {
+else if *expression* 
 	// code
-} else {
+else
 	// code
-}
-````
 
+
+````
 ### Example
-
 ````
-if 10 > 5 {
-	print("ten is greater than five")
-}
+if 10 > 5
+	print("ten is greater than five");
 ````
 
