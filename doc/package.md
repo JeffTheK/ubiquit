@@ -14,12 +14,12 @@ foo_bar
 |	.gitignore
 |
 |___src
-|		foo.ub
-|		bar.ub
+|		foo.ubi
+|		bar.ubi
 |
 |___test
-|		test_foo.ub
-|		test_bar.ub
+|		test_foo.ubi
+|		test_bar.ubi
 |
 |___doc
 |		doc1.md
