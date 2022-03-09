@@ -1,6 +1,6 @@
 # Hash
 
-Library `CoreHash`. Loaded and used by default.
+Built in Library . Loaded and used by default.
 
 ### Variables
 
