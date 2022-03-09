@@ -11,6 +11,3 @@ Library `CoreDir`. Loaded and used by default.
 `static Null make(String path)` - creates directory using *path*
 
 `Null constructor(String path)` - opens a directory if exists or creates a new one if not
-
-`Array list_files` - lists files of the directory
-
