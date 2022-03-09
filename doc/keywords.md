@@ -3,7 +3,7 @@
 Here's a list of reserved words.
 
 * `class`
-* `func`
+* `function`
 * `return`
 * `if`
 * `else`
