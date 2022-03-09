@@ -42,3 +42,6 @@ function void quicksort(number[]& arr, number begin, number end, number(number, 
 }
 ````
 Swap function swaps array randomly while quicksort function sorts thing according to ascending order. Use number or get error since these functions are from math inbuilt library.
+
+Quicksort sorts quickly while sort takes time.
+Use trace to run code analysis
