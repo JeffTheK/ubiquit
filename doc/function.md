@@ -5,7 +5,7 @@ Functions with no return statement return `null`.
 ### Syntax
 
 ````
-fun *return_type* *name_here*(*arguments*) {
+function *return_type* *name_here*(*arguments*) {
 	// code
 }
 ````
@@ -17,13 +17,13 @@ fun *return_type* *name_here*(*arguments*) {
 ### Example
 
 ````
-fun void swap(number& x, number& y) {
+function void swap(number& x, number& y) {
 	number tmp = x;
 	x = y;
 	y = tmp;
 }
 
-fun void quicksort(number[]& arr, number begin, number end, number(number, number) comp) {
+function void quicksort(number[]& arr, number begin, number end, number(number, number) comp) {
 	if (end - begin < 2)
 		return;
 	
@@ -41,4 +41,4 @@ fun void quicksort(number[]& arr, number begin, number end, number(number, numbe
 	quicksort(&arr, i+1, end, comp);
 }
 ````
-
+Swap function swaps array randomly while quicksort function sorts thing according to ascending order. Use number or get error since these functions are from math inbuilt library.
