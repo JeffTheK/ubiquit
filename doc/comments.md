@@ -2,7 +2,7 @@
 
 ### Syntax
 
-`// text here`
+`\\ text here`
 
 OR
 
