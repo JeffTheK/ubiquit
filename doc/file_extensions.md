@@ -1,4 +1,4 @@
 # File extensions
 
-`.ub`  is used for all files
+`.ubi`  is used for all files
 
